@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
+	<link rel="stylesheet" href="/css/normalize.css">
+	<link rel="stylesheet" href="/css/styles.css">	
+	<script src="https://kit.fontawesome.com/07056d3095.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <header>   
+		<div class="top-header">
+			<a href="/"><img class="logo" src="/images/logo-mercado-liebre.svg" alt="Logo de Mercado Liebre"></a>
+			<form class="buscador" action="url_del_destino" method="GET">
+				<input type="text" name="buscar" placeholder="Buscar productos, marcas">
+				<button type="submit"><i class="fas fa-search"></i></button>
+			</form>
+			<p><i class="fa-solid fa-hand-holding-dollar"></i>Comprá en cuotas y sin tarjeta de crédito</p>
+		</div>
+		<nav>
+        	<ul>
+          		<li><a href="#">Ofertas</a></li>
+          		<li><a href="#">Tiendas oficiales</a></li>
+          		<li><a href="#">Vender</a></li>
+          		<li><a href="#">Ayuda</a></li>
+        	</ul>
+        	<ul>
+            	<li><a href="/register">Creá tu cuenta <i class="fa-regular fa-id-card"></i></a></li>
+           		<li><a href="/login">Ingresá <i class="fa-solid fa-right-to-bracket"></i></a></li>
+            	<li><a href="#">Mis compras <i class="fa-solid fa-basket-shopping"></i></a></li>
+        	</ul>
+    	</nav>
+		
+		<a href="#" class="boton-hamburgesa"><i class="fa-solid fa-bars"></i></a>
+
+	</header>
+
+    <main>
+    
+        <form action="" method="GET" class="formulario">
+      
+            <input class="input-normal" type="text" id="nombre" name="nombre" placeholder="Nombre y apellido" required>
+            <input class="input-normal" type="text" id="usuario" name="usuario" placeholder="Nombre de usuario" required>
+            <input class="input-normal" type="email" id="email" name="email" placeholder="Email" required>
+            <label class="label-principal" for="nacimiento">Fecha de nacimiento</label>
+            <input class="input-normal" type="date" id="nacimiento" name="nacimiento" required>
+            <input class="input-normal" type="text" id="domicilio" name="domicilio" placeholder="Domicilio" required>
+            
+            <label class="label-principal" for="perfil">Perfil de usuario</label>
+
+        <div class="container-radio">
+            <input type="radio" name="perfil" value="Comprador">
+            <label for="perfil">Comprador</label>
+            <input type="radio" name="perfil" value="Vendedor">
+            <label for="perfil">Vendedor</label>
+        </div>
+            
+            <label class="label-principal" for="intereses">Intereses</label> 
+        
+        <div class="container-checkbox">
+            <div><input type="checkbox" value="Electro" name="intereses"><label for="intereses">Electro</label></div>
+            <div><input type="checkbox" value="Electro" name="intereses"><label for="intereses">Moda</label></div>
+            <div><input type="checkbox" value="Electro" name="intereses"><label for="intereses">Hogar</label></div>
+            <div><input type="checkbox" value="Electro" name="intereses"><label for="intereses">Juguetería</label></div>
+            <div><input type="checkbox" value="Electro" name="intereses"><label for="intereses">Vida sana</label></div>
+        </div>
+               
+        <div class="container-button">
+            <!-- <button type="reset">Cancelar</button> -->
+            <!-- <button type="submit">Enviar</button> -->
+            <a href="/"><button type="reset" class="button">Cancelar</button></a>
+            <a href="/"><button type="submit" class="button">Enviar</button></a>
+        </div>  
+
+    </form>
+
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>

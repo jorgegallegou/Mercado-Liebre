@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
+	<link rel="stylesheet" href="/css/normalize.css">
+	<link rel="stylesheet" href="/css/styles.css">	
+	<script src="https://kit.fontawesome.com/07056d3095.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <header>   
+		<div class="top-header">
+			<a href="/"><img class="logo" src="/images/logo-mercado-liebre.svg" alt="Logo de Mercado Liebre"></a>
+			<form class="buscador" action="url_del_destino" method="GET">
+				<input type="text" name="buscar" placeholder="Buscar productos, marcas">
+				<button type="submit"><i class="fas fa-search"></i></button>
+			</form>
+			<p><i class="fa-solid fa-hand-holding-dollar"></i>Comprá en cuotas y sin tarjeta de crédito</p>
+		</div>
+		<nav>
+        	<ul>
+          		<li><a href="#">Ofertas</a></li>
+          		<li><a href="#">Tiendas oficiales</a></li>
+          		<li><a href="#">Vender</a></li>
+          		<li><a href="#">Ayuda</a></li>
+        	</ul>
+        	<ul>
+            	<li><a href="/register">Creá tu cuenta <i class="fa-regular fa-id-card"></i></a></li>
+           		<li><a href="/login">Ingresá <i class="fa-solid fa-right-to-bracket"></i></a></li>
+            	<li><a href="#">Mis compras <i class="fa-solid fa-basket-shopping"></i></a></li>
+        	</ul>
+    	</nav>
+		
+		<a href="#" class="boton-hamburgesa"><i class="fa-solid fa-bars"></i></a>
+
+	</header>
+
+    <main>
+    
+        <form action="" method="GET" class="formulario">     
+
+            <input class="input-normal" type="password" id="password" name="password" placeholder="Contraseña" required>
+            <input class="input-normal" type="password" id="cpassword" name="cpassword" placeholder="Confirme contraseña" required>
+               
+        <div class="container-button-login">
+            <a href="/"><button type="submit" class="button">Iniciar sesión</button></a>
+        </div>  
+
+    </form>
+
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>
