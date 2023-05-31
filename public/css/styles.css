@@ -410,26 +410,20 @@ form div div {
     article:hover i {
         transform: rotate(270deg);  
     }
-
-    
     footer div i:hover {
         color: #EAC926;
     }
-
     nav ul li a:hover {
     font-weight: 600;
     color:white
     }
-    
     main section article {
        width: 45%;
     } 
-
     header nav {
         display: flex;
-        justify-content: space-between; 
+        justify-content: space-around; 
         width: 100%;
-        margin-top: 5px;
         align-items: center;
     }
 
