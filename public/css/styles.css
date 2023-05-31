@@ -373,8 +373,7 @@ form div div {
     }
     .top-header .logo {
         padding: 10px 10px;
-        width: 250px;
-    
+        max-width: 180px;
     }
     .top-header p {
         font-size: 18px;
@@ -449,5 +448,9 @@ form div div {
     }
     footer div {
         width: 30%;
+    }
+    .top-header .logo {
+        padding: 10px 10px;
+        max-width: 250px;
     }
 }
